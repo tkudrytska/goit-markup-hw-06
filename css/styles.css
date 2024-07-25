@@ -360,7 +360,7 @@ address {
 .hero {
   background-color: #2e2f42;
   padding: 72px 0;
-  width: 100%;
+  max-width: 1440px;
   height: 100%;
   background-image: linear-gradient(
       to bottom,
@@ -596,8 +596,6 @@ address {
   background: #f4f4fd;
   padding-top: 96px;
   padding-bottom: 96px;
-  /* padding-top: 120px;
-  padding-bottom: 120px; */
 }
 
 .team-title {
@@ -616,7 +614,6 @@ address {
   flex-direction: column;
   justify-content: space-between;
   gap: 72px;
-  /* gap: 24px; */
 }
 
 .team-box {
@@ -628,7 +625,6 @@ address {
     0 1px 1px 0 rgba(46, 47, 66, 0.16),
     0 1px 6px 0 rgba(46, 47, 66, 0.08);
   border-radius: 0 0 4px 4px;
-  /* max-width: calc((100% - 3 * 24px) / 4); */
 }
 
 @media screen and (min-width: 768px) {
